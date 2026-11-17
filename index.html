@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vicely</title>
+<meta name="description" content="Vicely is a private desktop app that prepares short GTA VI videos from Rockstar Games' official trailers and uploads them to the Vicely YouTube channel through the YouTube Data API.">
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+         background: #fafafa; color: #1d1f23; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px 60px; }
+  header { text-align: center; }
+  h1 { font-size: 40px; margin: 0 0 6px; letter-spacing: .02em; }
+  h2 { font-size: 21px; margin: 32px 0 8px; }
+  p { margin: 10px 0; } a { color: #c8102e; } li { margin: 4px 0; }
+  .lead { font-size: 19px; }
+  .btn { display: inline-block; margin-top: 14px; padding: 11px 22px; border-radius: 10px;
+         background: #e3192e; color: #fff; text-decoration: none; font-weight: 600; }
+  .muted { color: #6b7078; font-size: 14px; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 40px 0; }
+  footer { text-align: center; margin-top: 40px; }
+  @media (prefers-color-scheme: dark) { body { background: #111316; color: #e8eaed; }
+    .muted { color: #9aa0a8; } a { color: #ff6b77; } .btn { color: #fff; } hr { border-top-color: #2a2e34; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>Vicely</h1>
+  <p class="lead">Vicely is a private desktop application that prepares short videos about Grand Theft Auto VI and
+    publishes them to the owner's YouTube channel Vicely.</p>
+  <a class="btn" href="https://www.youtube.com/@VicelyGTA6">Watch Vicely on YouTube</a>
+</header>
+
+<h2>What the Vicely app does</h2>
+<p>The app runs only on its owner's own computer. It makes short, vertical fan videos about the game Grand Theft
+Auto VI from Rockstar Games' own official trailers and public information, and uploads the finished videos to one
+YouTube channel — the owner's own channel,
+<a href="https://www.youtube.com/@VicelyGTA6">youtube.com/@VicelyGTA6</a>. The videos are:</p>
+<ul>
+  <li>music edits cut from the official trailers;</li>
+  <li>short clips pointing out details of the game's world (cars, places, weather, wildlife);</li>
+  <li>side-by-side comparisons of the same scene in GTA V and GTA VI;</li>
+  <li>short news and facts about the game.</li>
+</ul>
+<p>Vicely is a fan channel and is not affiliated with Rockstar Games or Take-Two Interactive.</p>
+
+<h2>Why it uses Google APIs</h2>
+<p>The app uses the YouTube Data API only to publish the owner's own videos to the owner's own channel: it uploads
+each finished video with its title, description and tags, adds its captions and thumbnail, and reads the channel's
+ID, title and handle to confirm that the right channel is connected. It does not access any other user's data, and
+it is not offered to the public — there are no user accounts and no sign-in on this website. How the data is
+handled is described in the <a href="privacy.html">Privacy Policy</a>.</p>
+
+<h2>What the app does not do</h2>
+<p>Vicely cuts and captions official game footage; it does not generate images or videos of real people, and it
+never creates sexual, intimate or non-consensual imagery of anyone (no AI-generated non-consensual intimate
+imagery). It does not show leaked material, game endings or cheats, and it does not use Google user data for
+advertising, profiling or training AI models.</p>
+
+<hr>
+
+<h2>Приложение Vicely</h2>
+<p>Vicely — личное приложение владельца канала: работает на его компьютере, готовит короткие ролики о Grand Theft
+Auto VI из официальных трейлеров Rockstar Games и через YouTube Data API публикует их только на его канал
+<a href="https://www.youtube.com/@VicelyGTA6">Vicely</a>. Изображений реальных людей и интимного контента
+приложение не создаёт; данные Google не используются для рекламы и обучения моделей. Подробнее — в
+<a href="privacy.html">политике конфиденциальности</a>.</p>
+
+<footer class="muted">
+  Vicely · <a href="privacy.html">Privacy Policy</a> ·
+  <a href="mailto:business.minds.daily1@gmail.com">business.minds.daily1@gmail.com</a>
+</footer>
+</main>
+</body>
+</html>

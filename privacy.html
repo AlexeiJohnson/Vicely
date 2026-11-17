@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Vicely</title>
+<meta name="description" content="Privacy Policy of the Vicely app: what Google user data it accesses, how it is used, stored, protected, shared and deleted.">
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+         background: #fafafa; color: #1d1f23; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 20px 60px; }
+  h1 { font-size: 28px; margin: 0 0 4px; } h2 { font-size: 19px; margin: 28px 0 6px; }
+  .muted { color: #6b7078; font-size: 14px; } a { color: #c8102e; } li { margin: 4px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: 15px; }
+  th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f0f0f0; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 40px 0; }
+  @media (prefers-color-scheme: dark) { body { background: #111316; color: #e8eaed; }
+    .muted { color: #9aa0a8; } hr, th, td { border-color: #2a2e34; } th { background: #1b1e22; } a { color: #ff6b77; } }
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy</h1>
+<p class="muted">Vicely — last updated 17 November 2026</p>
+
+<h2>1. Who we are and what this policy covers</h2>
+<p>This policy describes how the <b>Vicely</b> application ("the app") handles data. Vicely is a
+private desktop application that its owner runs on their own computer to prepare short videos about Grand
+Theft Auto VI from Rockstar Games' official trailers and publish them to the owner's own YouTube channel,
+<a href="https://www.youtube.com/@VicelyGTA6">youtube.com/@VicelyGTA6</a>. The app is not offered to the
+public: it has no user accounts, no sign-up and no website login, and the only person who signs in to it with a
+Google account is the channel owner. Contact:
+<a href="mailto:business.minds.daily1@gmail.com">business.minds.daily1@gmail.com</a>.</p>
+
+<h2>2. Google user data the app accesses</h2>
+<p>When the owner connects their YouTube channel, the app asks Google (OAuth 2.0) for these permissions only:</p>
+<table>
+  <tr><th>Scope</th><th>What it allows</th><th>Why the app needs it</th></tr>
+  <tr><td><code>https://www.googleapis.com/auth/youtube.upload</code></td><td>Upload videos to the connected
+    channel.</td><td>To publish the owner's finished videos to the owner's channel.</td></tr>
+  <tr><td><code>https://www.googleapis.com/auth/youtube.readonly</code></td><td>Read the connected channel's
+    basic information.</td><td>To read the channel's ID, title and handle and show the owner which channel is
+    connected, so videos never go to the wrong channel.</td></tr>
+  <tr><td><code>https://www.googleapis.com/auth/youtube.force-ssl</code></td><td>Manage the channel's videos and
+    captions.</td><td>To add captions and a custom thumbnail to the videos the app itself uploaded.</td></tr>
+</table>
+<p>The data the app actually stores is: the OAuth refresh token, short-lived access tokens, and the connected
+channel's ID, title and handle. It also keeps, for each video it uploaded, the YouTube video ID and the title,
+description, tags and publish time it set.</p>
+<p>The app does <b>not</b> read or store the owner's email address, contacts, private messages, comments,
+subscribers, watch history, playlists, analytics or payment information, and it never accesses any other
+person's Google or YouTube data.</p>
+
+<h2>3. How the data is used</h2>
+<ul>
+  <li>to upload the owner's videos to the owner's channel at the times the owner chose;</li>
+  <li>to set each uploaded video's title, description, tags, captions and thumbnail;</li>
+  <li>to show the owner which channel is connected and whether each upload succeeded.</li>
+</ul>
+<p>Google user data is used for nothing else: not for advertising, not for building profiles, not sold, and not
+used to develop, improve or train artificial-intelligence or machine-learning models.</p>
+
+<h2>4. Content the app creates</h2>
+<p>The videos are cut from Rockstar Games' official, publicly released trailers and screenshots of Grand Theft
+Auto VI, with captions, music and text added. The app does not generate images or videos of real people, and it
+never creates sexual, intimate or non-consensual imagery (AI NCII) of anyone. Vicely is a fan channel, not
+affiliated with Rockstar Games or Take-Two Interactive.</p>
+
+<h2>5. Where the data is stored and how it is protected</h2>
+<p>All of the data above is stored only on the owner's own computer, in the app's local database, which only the
+owner can open (behind the owner's own login). The app has no cloud server of its own: the data is sent only to Google, over encrypted
+HTTPS connections, when the app calls the YouTube Data API. Access tokens are kept in memory and expire within one
+hour; the refresh token is kept locally so that scheduled uploads can run, and it is never written to logs or
+shared.</p>
+
+<h2>6. Sharing and disclosure</h2>
+<p>The app does not sell, rent, share, transfer or disclose Google user data to any third party. The only party
+that receives it is Google itself, as part of the YouTube Data API requests described above.</p>
+<p><b>Limited Use.</b> Vicely's use and transfer of information received from Google APIs to any other app
+will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>7. Retention and deletion</h2>
+<p>The data is kept only while the channel is connected. Pressing "Disconnect YouTube" in the app revokes the
+token with Google and deletes the stored tokens and channel information from the computer immediately. Access can
+also be revoked at any time on the Google account's
+<a href="https://myaccount.google.com/permissions">third-party access page</a>. Records of the videos the app
+uploaded (their YouTube IDs and texts) can be deleted by the owner at any time. To ask about or request deletion
+of any data, write to <a href="mailto:business.minds.daily1@gmail.com">business.minds.daily1@gmail.com</a>.</p>
+
+<h2>8. Children</h2>
+<p>The app is used only by its adult owner and does not knowingly collect data from children.</p>
+
+<h2>9. YouTube and Google</h2>
+<p>The app uses YouTube API Services. By using it you agree to the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is described in
+the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>If the app starts to use Google data in a different way, this page will be updated before that happens and the
+date at the top will change.</p>
+
+<h2>11. Contact</h2>
+<p>Questions about this policy or the app: <a href="mailto:business.minds.daily1@gmail.com">business.minds.daily1@gmail.com</a>
+· Home page: <a href="https://alexeijohnson.github.io/Vicely/">alexeijohnson.github.io/Vicely</a></p>
+
+<hr>
+
+<h1>Политика конфиденциальности</h1>
+<p class="muted">Vicely — обновлено 17 ноября 2026 г.</p>
+<p>Vicely — личное приложение владельца канала
+<a href="https://www.youtube.com/@VicelyGTA6">youtube.com/@VicelyGTA6</a>: работает на его компьютере,
+готовит короткие ролики о Grand Theft Auto VI из официальных трейлеров Rockstar Games и публикует их только
+на этот канал. Посторонним
+пользователям приложение не предоставляется, учётных записей и входа на сайте нет.</p>
+<p><b>Доступ.</b> С разрешения владельца приложение загружает ролики на его канал (<code>youtube.upload</code>),
+читает идентификатор, название и адрес канала (<code>youtube.readonly</code>) и добавляет к своим роликам
+субтитры и обложку (<code>youtube.force-ssl</code>). Почта, контакты, сообщения, комментарии, подписчики, история
+просмотров и аналитика не читаются; данные других людей не используются.</p>
+<p><b>Хранение и защита.</b> Токены и сведения о канале хранятся только на компьютере владельца и передаются только
+Google по HTTPS. Кнопка «Отключить YouTube» отзывает доступ и удаляет их; доступ можно отозвать и в
+<a href="https://myaccount.google.com/permissions">настройках аккаунта Google</a>.</p>
+<p><b>Передача.</b> Данные не продаются, не передаются третьим лицам и не используются для рекламы, профилирования
+и обучения моделей ИИ; приложение соблюдает Google API Services User Data Policy, включая требования Limited Use.
+Изображений реальных людей и интимного контента приложение не создаёт; канал фанатский и не связан с Rockstar Games.</p>
+<p><b>Связь:</b> <a href="mailto:business.minds.daily1@gmail.com">business.minds.daily1@gmail.com</a>.</p>
+</main>
+</body>
+</html>
